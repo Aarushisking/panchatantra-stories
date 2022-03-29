@@ -1,0 +1,162 @@
+body{
+    background-color: #00ff99
+}
+
+.Home-Page{
+    font-size: 60px;
+text-align: center;
+}
+
+ img{
+    padding-left: 400px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    padding-right:  400px;
+
+}
+.Crane and the wolf{
+width: 550;
+height: 300;
+}
+
+footer{
+    font-size:30px ;
+}
+
+button{
+    font-size: 19px;
+}
+
+.Page-2-h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+.text-1{
+    font-size: 21px;
+    padding-bottom: 20px
+    
+}
+.You Golden Goat{
+    width: 200px;
+   height: 200px;
+}
+
+
+.Golden-Goat{
+     
+     font-size:60px;
+     text-align: center;
+     
+ }
+ .text3{
+     padding-bottom: 20px;
+     font-size: 21px;
+     
+ }
+ 
+ .drownings{
+     height: 300px;
+     width: 400px;
+ }
+ .text-4{
+     font-size: 21px;
+ }
+ .hedding3{
+     font-size: 60px;
+     text-align: center;
+ }
+ .hedding4{
+     font-size: 60px;
+     text-align: center;
+ }
+ .text-5{
+      font-size: 21px;
+ }
+
+ .tital-5{
+     font-size: 60px;
+     text-align: center;
+ }
+.text-7{
+    font-size: 21px;
+}
+.Button-69{
+    text-align: end;
+}
+.Monkey_time{
+    font-size: 60px;
+    text-align: center;
+}
+.story{
+    font-size: 21px;
+}
+
+.First_pic{
+     position : absolute;
+     left: 100px;
+}
+.container{
+        width: 80%;
+    margin: 0 auto;
+}
+header{
+    background: #ffad33;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.main-img{
+    float: left;
+    padding: 10px 0 ;
+    height : 70px;
+}
+nav{
+    float: right;
+    height: 30px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+
+    position: relative;
+}
+nav a{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+nav a:hover{
+    color: blue;
+}
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #444;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+}
+ .Finished{
+     text-align: center;
+     font-size: 30px;
+     position: absolute;
+     top: 300px;
+     left : 200px;
+     text-decoration:underline;
+    font-family:cursive;
+     
+ }
+
