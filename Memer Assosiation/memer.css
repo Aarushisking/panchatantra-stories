@@ -1,0 +1,115 @@
+body{
+    background-color: aqua;
+
+
+}
+.h11{
+ text-align: center;
+ font-size: 60px;
+}
+.Picture_1{
+    
+    margin-left: 380px;
+}
+
+.Blog_page{
+    text-align: center;
+    font-size: 60px;
+}
+.Blog_text{
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.youtube_link{
+    text-align: center;
+    text-decoration: none;
+    color: red;
+    text-transform: uppercase;
+    font-size: 25px;
+    
+}
+.about_page_text{
+    text-align: center;
+    font-size: 25px;
+}
+.About_page{
+    text-align: center;
+    font-size: 60px;
+}
+.gif_number_1{
+    margin-left: 550px;
+}
+.blog_meme{
+    margin-left: 500px;
+}
+
+
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    background-color: red;
+}
+.logo{
+    float: left;
+    padding: 10px 0;
+}
+
+nav{
+    float: right;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+
+
+    position: relative;
+}
+
+
+
+nav a{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+
+nav a:hover{
+    color: aqua;
+}
+
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    background-color:black ;
+
+
+    position: absolute;
+    width: 0%;
+    top: 0;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
